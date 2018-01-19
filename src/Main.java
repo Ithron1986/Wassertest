@@ -19,6 +19,8 @@ public class Main {
         o.growthPeriod();
 
 
+        System.out.println("stefan stinkt");
+
 
 
 
