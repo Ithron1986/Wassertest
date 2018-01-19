@@ -19,9 +19,6 @@ public class Main {
         o.growthPeriod();
 
 
-        List<Integer> ints = new LinkedList<>();
-
-
 
 
 
