@@ -19,7 +19,7 @@ public class Main {
         o.growthPeriod();
 
 
-        System.out.println("Stefan ist cool");
+        
 
 
 
