@@ -1,22 +1,24 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
 
         Oekosystem o = new Oekosystem();
 
-        for (int i = 0; i < 10000; i++) {
+        WetterBeobachtung montag = new WetterBeobachtung(5, 5, 5);
+        WetterBeobachtung dienstag = new WetterBeobachtung(9, 4, 5);
 
-            o.addPflanze();
-        }
+        WetterGenerator wetterGenerator = new WetterGenerator();
+        WetterBeobachtung gestern = wetterGenerator.generate();
 
-        o.wasser = 4;
-        o.energie = 3;
-        o.naehrstoffe = 4;
-        o.growthPeriod();
+        WetterBeobachtung heute = wetterGenerator.generate();
+
+
+
+        Boden b = new Boden();
+
+        b.applyWetter(heute, gestern);
+
+        System.out.println(w.kalkBewoelkung());
 
 
         //asdfasdf

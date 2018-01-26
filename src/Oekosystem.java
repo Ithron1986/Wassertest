@@ -43,5 +43,8 @@ public class Oekosystem {
 			p.growth(wasser, energie, naehrstoffe);
 		}
 	}
+	//public void Fortpflanzung() {
+	//	for (f > )
+	//}
 
 }
